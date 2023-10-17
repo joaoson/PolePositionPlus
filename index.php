@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php
+    echo "PHP Identifier";
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
