@@ -20,7 +20,7 @@
             </h1>
             <div class="buttons">
                 <button class="botao">Login</button>
-                <button class="botao">Sign up</button>
+                <a href="./signup.php"><button class="botao">Sign up</button></a>
             </div>
         </div>
     </header>
@@ -62,7 +62,7 @@
                             <div class="card" data-aos="zoom-in">
                                 <h2><?php echo $row["nome"]?></h2>
                                 <h3><?php echo $row["sobrenome"]?></h3>
-                                <img class="imageDriver" src="https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/<?php echo $row["sobrenome"]?>.jpg.img.1024.medium.jpg/1677069646195.jpg" alt="">
+                                <img class="imageDriver" src="<?php echo $row["sobrenome"]== "Russel" ? "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/russell.jpg.img.1920.medium.jpg/1677069334466.jpg": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/". $row["sobrenome"] . ".jpg.img.1024.medium.jpg/1677069646195.jpg"?>" alt="">
                                 <h4><?php echo $row["equipe"]?></h4>
                                 <h4><?php echo $row["Idade"]?> Years Old</h4>
                             </div>
