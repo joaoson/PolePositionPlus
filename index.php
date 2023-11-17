@@ -19,7 +19,7 @@
                 PPP
             </h1>
             <div class="buttons">
-                <button class="botao">Login</button>
+                <a href="./login.php"><button class="botao">Login</button></a>
                 <a href="./signup.php"><button class="botao">Sign up</button></a>
             </div>
         </div>

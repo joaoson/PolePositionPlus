@@ -26,7 +26,7 @@
         <div class="mainContainer">
             <div class="header">
                 <h1 id="welcome">Welcome to the sign up page of PPP</h1>
-                <p>Already have an account? <a href="">Login</a></p>
+                <p>Already have an account? <a href="login.php">Login</a></p>
             </div>
             <form method="POST" action="signup_php.php" class="formulario">
                 <div class="inputs">

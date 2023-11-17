@@ -26,9 +26,9 @@
         <div class="mainContainer">
             <div class="header">
                 <h1 id="welcome">Welcome to the Login page of PPP</h1>
-                <p>Do not have an account? <a href="">Sign-up</a></p>
+                <p>Do not have an account? <a href="signup.php">Sign-up</a></p>
             </div>
-            <form method="POST" action="signup_php.php" class="formulario">
+            <form method="POST" action="login_php.php" class="formulario">
                 <div class="inputs">
                     <label for="email">Email</label>
                     <input type="email" name="email" id="email">

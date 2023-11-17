@@ -107,6 +107,7 @@ input{
     background-color: #e4e4e4;
     padding: 1rem;
     outline: none;
+    box-sizing: border-box;
 }
 
 .inputs{
@@ -128,4 +129,8 @@ input{
     background-color: #e4e4e4;
     padding: 1rem;
     outline: none;
+}
+button{
+    font-family: "Montserrat", sans-serif;
+
 }

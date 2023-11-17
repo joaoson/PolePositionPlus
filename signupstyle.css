@@ -196,3 +196,7 @@ input[type="checkbox"]{
     padding: 1rem;
     outline: none;
 }
+
+button{
+    font-family: "Montserrat", sans-serif;
+}

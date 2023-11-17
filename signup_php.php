@@ -18,8 +18,8 @@
             if ($result === TRUE) {
 ?>
 <script>
-    alert('Usuário cadastrado com sucesso!!!');
-    location.href = 'users_lst.php';
+    alert('Usuário cadastrado com sucesso!');
+    location.href = 'login.php';
 </script>
 <?php
             }
