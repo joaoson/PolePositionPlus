@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --red: #c41818;
+    --green: #049c35;
+  }
+
+.red{
+    color: var(--red);
+}
+
+.green{
+    color: var(--green);
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #f1f1f1;
+    width: 100vw !important;
+    overflow-x: hidden;
+
+}
+
+body, html, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.photoCover, .mainContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContainer{
+    width: 60%;
+
+    align-items: center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.photoCover{
+    width: 40%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-position: 35%;
+    background-image: url("pj-f123-bel-w01-rus-unmarked.jpg.adapt.crop191x100.628p.jpg");
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+#welcome{
+    font-size: 1.5rem;
+    width:60%;
+    text-align: start;
+}
+
+label{
+    font-size: 1rem;
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    white-space: nowrap;
+    margin-bottom: 0.5rem;
+}
+
+label::before{
+    content: "—";
+    padding-right: 1rem;
+    color: black;
+}
+
+label::after{
+    content: "—————————————————————————————";
+    padding-left: 1rem;
+    color: black;
+}
+
+input{
+    width: 100%;
+    border: none;
+    background-color: #e4e4e4;
+    padding: 1rem;
+    outline: none;
+}
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+input[type="date"]{
+    background-color: #e4e4e4;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+}
+::-webkit-calendar-picker-indicator{
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: transparent;
+    cursor: pointer;
+    height: auto;
+    padding: 1rem;
+    width: 32%;
+    position: absolute;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input[type="checkbox"]{
+  accent-color: var(--green);
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    overflow-x: hidden;
+    align-items: center;
+}
+
+.checkbox{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.checkbox input{
+    width: auto;
+}
+
+.photoCover h1{
+    color: white;
+    font-size: 200px;
+}
+
+#checkBoxLabel{
+
+}
+
+#checkBoxLabel::before{
+    content: "";
+}
+
+#checkBoxLabel::after{
+    content: "";
+}
+
+#submit{
+    width: 30%;
+    border: none;
+    background-color: #e4e4e4;
+    padding: 1rem;
+    outline: none;
+}
+
+button{
+    font-family: "Montserrat", sans-serif;
+}
